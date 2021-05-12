@@ -26,11 +26,15 @@ Install the required libraries.
 There are 2 ways you can execute:
 1. In this python file we have used Output.csv file where there a mapping is done between song emotions and facial emotions. (Emotions of songs can be predicted using [this repo.](https://github.com/Saurav-Kanegaonkar/Song-Emotion-Predictor)). While the camera window is open press **'p'** which will capture a photo and the face emotion will be detected. After the face emotion is predicted we display the songs playlist and YouTube link for the 1st song is opened in the web browser. Note that we haven't included songs for human emotions- fear and surprise. Press **'q'** for 5 seconds to exit.
 
-`python emotions.py`
+```python
+python emotions.py
+```
 
 2. Press **'p'** on the camera window. I have hard coded the playing music part i.e. there are 5 emotion folders having 5 songs each which will be played randomly after any of the 5 emotions are detected(except fear and surprised). Press **'q'** for 5 seconds to exit.
 
-`python emotions_play.py`
+```python
+python emotions_play.py
+```
 
 
 ## Screenshots
