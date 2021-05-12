@@ -14,6 +14,12 @@ Models used for:
     ```
 ![model](Images/Model.jpg)
 
+## Dataset
+
+If you don't want to use the pretrained model, then download the dataset from [here](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data).
+
+Make a folder named fer2013 and extract the dataset there (Check `load_and_process.py` file for path).
+
 ## Execution
 Install the required libraries.
 
