@@ -3,9 +3,3 @@
 *.pyc
 venv/
 bvenv/
-angry/
-sad/
-happy/
-neutral/
-fear/
-cool.mp3
